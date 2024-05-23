@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation login</title>
+    <style>
+                body {
+      display: flex;
+      background-size: cover;
+            background-position: center;
+  
+     justify-content: center;
+     background-image: url('luct.png');
+}
+    button {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        }
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: blue;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button-link:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Form -->
+<div  style="align-content: center; justify-content: center; display: flex; background-image: url('luct.png');">
+    <div id="login-form" style="align-content: center;">
+<h1>Log In </h1>
+<form form action="dash.html" meSysteythod="post">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" required><br><br>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br>
+
+<input type="submit" value="Sign In">
+</form>
+    </div>
+    <a href="dash.html" class="button-link">Visitor</a>
+</div>
+</body>
+</html>
